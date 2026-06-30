@@ -802,3 +802,38 @@ button{
         flex-direction:column;
     }
 }
+@media (max-width:768px){
+
+    .mission-content{
+        flex-direction:column;
+        gap:30px;
+    }
+
+    .mission-images,
+    .mission-media{
+        width:100%;
+        align-items:center;
+    }
+
+    .mission-images img,
+    .mission-media img,
+    .mission-media video{
+        width:100%;
+        max-width:350px;
+        height:auto;
+    }
+
+    .mission-cards{
+        width:100%;
+        align-items:center;
+    }
+
+    .mission-card{
+        width:90%;
+        max-width:350px;
+    }
+
+    .mission-title{
+        font-size:35px;
+    }
+}
