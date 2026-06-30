@@ -301,8 +301,9 @@ button{
 
 
 .mission-media video{
-    width:420px;
-    height:420px;
+   width:100%;
+max-width:520px;
+height:auto;
     object-fit:cover;
     border-radius:25px;
     box-shadow:0 15px 35px rgba(0,0,0,0.15);
@@ -350,17 +351,7 @@ button{
     transition:all 1s ease;
     transform:translate(0,0);
 }
-/* .mission-card{
-    width:520px;
-    background:white;
-    padding:25px;
-    border-radius:20px;
-    box-shadow:0 10px 25px rgba(0,0,0,0.1);
-    transition:.5s;
-    cursor:pointer;
-    position:relative;
-    overflow:hidden;
-} */
+
 
 .mission-card:hover{
     transform:translateY(-10px);
@@ -793,15 +784,7 @@ button{
         transform:translateX(-50%);
     }
 }
-@media (max-width:768px){
-    .hero-content h1{
-        font-size:35px;
-    }
 
-    nav{
-        flex-direction:column;
-    }
-}
 @media (max-width:768px){
 
     .mission-content{
