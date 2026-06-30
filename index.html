@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drop Your Story</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🌧 Drop Your Story</h1>
+  <p class="tagline">You are not alone.</p>
+
+  <div class="post-box">
+    <textarea id="storyInput" placeholder="Drop your story anonymously..."></textarea>
+    <button onclick="postStory()">Post</button>
+  </div>
+
+  <h2>Stories</h2>
+  <div class="feed" id="stories"></div>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

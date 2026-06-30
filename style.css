@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+h1 {
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+.feed {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.story-card {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+.story-text {
+  font-size: 20px;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.support-btn {
+  padding: 10px 20px;
+  background: #ff2e63;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 16px;
+}

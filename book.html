@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaveALife - Book Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+ <div class="logo">
+        <img src="SAVEALIFE-MAINLOGO.png" alt="Save A Life">
+    </div>
+<section class="booking-section">
+
+    <h1>Book Your Service</h1>
+
+    <form id="bookingForm">
+
+        <input type="text"
+               id="name"
+               placeholder="Full Name"
+               required>
+
+        <input type="tel"
+               id="phone"
+               placeholder="Mobile Number"
+               required>
+<select id="service" required>
+    <option value="">Select Service</option>
+
+    <optgroup label="Ambulance Services">
+        <option>Ground Ambulance</option>
+        <option>Air Ambulance</option>
+        <option>Train Ambulance</option>
+        <option>Pacemaker (Cardiac Ambulance)</option>
+        <option>Incubator (Neonatal Ambulance)</option>
+        <option>Psychiatric Patient Ambulance</option>
+    </optgroup>
+
+    <optgroup label="Lease Services">
+        <option>Ambulance for Corporate Leasing</option>
+        <option>Ambulance for School Leasing</option>
+        <option>Ambulance for Industrial & Factory Leasing</option>
+    </optgroup>
+
+    <optgroup label="Medical Services">
+        <option>Ambulance for Outdoor Tours & Camps</option>
+        <option>Staff Provision for Corporate Companies (Nursing & Paramedical)</option>
+        <option>Nursing & Paramedical Staff for Outdoor Camps</option>
+        <option>Medical Room Management & Setup for Corporates & Industries</option>
+    </optgroup>
+</select>
+
+        <input type="text"
+               id="location"
+               placeholder="Pickup Location"
+               required>
+
+        <input type="date"
+               id="date"
+               required>
+
+        <select id="time" required>
+
+            <option value="">Select Time Slot</option>
+
+            <option>08:00 AM - 10:00 AM</option>
+
+            <option>10:00 AM - 12:00 PM</option>
+
+            <option>12:00 PM - 02:00 PM</option>
+
+            <option>02:00 PM - 04:00 PM</option>
+
+            <option>04:00 PM - 06:00 PM</option>
+
+        </select>
+
+        <button type="submit">
+            Book Service
+        </button>
+
+    </form>
+
+    <p id="message"></p>
+
+</section>
+```
+
+
+</body>
+</html>
