@@ -138,3 +138,13 @@
 .book-btn:hover{
     background:#0077a3;
 }
+@media (max-width:768px){
+    .service-card{
+        flex-direction:column;
+    }
+
+    .service-card img{
+        width:100%;
+        height:auto;
+    }
+}
