@@ -148,3 +148,34 @@
         height:auto;
     }
 }
+@media (max-width:768px){
+
+    .service-card{
+        flex-direction:column;
+        text-align:center;
+        gap:25px;
+    }
+
+    .service-card img{
+        width:100%;
+        max-width:320px;
+        height:auto;
+    }
+
+    .service-text{
+        width:100%;
+    }
+
+    .service-text h2{
+        font-size:30px;
+    }
+
+    .service-text p{
+        font-size:16px;
+    }
+
+    .book-btn{
+        width:100%;
+        max-width:250px;
+    }
+}
