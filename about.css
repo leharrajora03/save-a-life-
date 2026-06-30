@@ -73,3 +73,13 @@
     opacity:1;
     transform:translateY(0);
 }
+@media (max-width:768px){
+    .about{
+        flex-direction:column;
+    }
+
+    .about-image img{
+        width:100%;
+        height:auto;
+    }
+}
